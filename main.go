@@ -34,5 +34,7 @@ func task3() {
 }
 
 func task4(a int, b int) {
-	fmt.Println((a + b) / 2)
+	sum := a + b
+	avg := sum / 2
+	fmt.Println(avg)
 }
